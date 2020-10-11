@@ -28,6 +28,7 @@
 }
 .PopularCities {
   white-space: nowrap;
+  cursor: pointer;
   float: left;
   margin: auto;
   padding-top: 10px;
@@ -38,6 +39,7 @@
 }
 .City {
   white-space: nowrap;
+  cursor: pointer;
   font-size: 12px;
   margin-right: 5px;
   margin-bottom: 0px;
@@ -47,6 +49,7 @@
 }
 .Country {
   font-size: 12px;
+  cursor: pointer;
   color: #d3d3d3;
   margin-left: 0;
   margin-bottom: 5px;

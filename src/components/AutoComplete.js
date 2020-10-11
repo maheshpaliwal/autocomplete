@@ -21,7 +21,7 @@ export class AutoComplete extends Component {
         if (event) {
             if (value.length >= 3) {
                 axios.get(` https://base.amberstudent.com/api/v0/regions?limit=5&region_types=locality%2Csublocality%2Cestablishment&sort_key=search_name&sort_order=desc&states=active&only=id%2Cname%2Ccanonical_name%2Cmeta%2Cregion_type%2Csecondary_name&search_name=${event.target.value}`).then((res) => {
-                    if (res.status == 200) {
+                    if (res.status === 200) {
                         var resultArray = [];
                         for (var i = 0; i < res.data.data.result.length; i++) {
                             var option = res.data.data.result[i];
