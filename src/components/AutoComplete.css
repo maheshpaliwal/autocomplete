@@ -1,0 +1,56 @@
+.AutoCompleteText{
+    background:white;
+    border:palevioletred;
+    border-radius: 3%;
+    
+    
+}
+.SearchButton{
+    position: absolute;
+    border-radius: 0 2px 2px 0;
+    letter-spacing: 1px;
+    left: 0;
+    line-height: 1.5;
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #e8415d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+.ColStyle{
+   padding: 0;
+}
+.OutlineClass{
+    border-color: #fff;
+
+}
+.SearchIcon{
+    margin-right: 5px;
+   
+}
+.headingColor{
+color:#f06673;
+font-weight: 700;
+display: block;
+font-size: 13px;
+cursor: pointer;
+margin:0
+}
+.suggestionName{
+    color:#555;
+    display: block;
+    font-size: 12px;
+    font-style: inherit;
+    font-weight: 400;
+    margin: 0;
+}
+.locationIcon{
+    
+    padding-top: 6px;
+    font-size: 18px;
+    color: #000;
+    display: flex;
+    left: 0;
+}

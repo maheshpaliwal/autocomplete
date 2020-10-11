@@ -1,0 +1,75 @@
+.SearchHeading {
+  font-weight: 530;
+  display: block;
+  font-size: 13px;
+  left: 0;
+  background-color: #f4f4f4;
+  padding-left: 20px;
+  color: #3273dc;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.SearchRow {
+  background-color: #d3d3d3;
+  padding: 5;
+}
+.RecentCity {
+  white-space: nowrap;
+  font-size: 12px;
+  margin: auto;
+  border: groove #f4f4f4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+.PopularCities {
+  white-space: nowrap;
+  float: left;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.City {
+  white-space: nowrap;
+  font-size: 12px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.Country {
+  font-size: 12px;
+  color: #d3d3d3;
+  margin-left: 0;
+  margin-bottom: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.Btn-group button {
+background-color: #fff;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  border: 1px groove #f4f4f4;
+  color: #000;
+  font-size: 12px;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left;
+}
+
+.Btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.Btn-group button:hover {
+  color: #3273dc;
+}
